@@ -1,0 +1,44 @@
+.schedule h1 {
+	color: #ed3823;
+	font-size: 2.3rem;
+	font-family: KaijuKingz;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 16px 0px;
+}
+.schedule .container {
+	max-width: 900px;
+}
+.schedule .container h1 {
+	text-align: start;
+	letter-spacing: 2px;
+	font-size: 1.8rem;
+}
+.schedule-wrap p {
+	line-height: 1.5;
+}
+.schedule-img-container {
+	display: grid;
+	grid-template-columns: repeat(5, 18%);
+	gap: 2%;
+	margin-bottom: 24px;
+}
+.img-wrap img {
+	border-radius: 50%;
+}
+.img-wrap {
+	margin: 24px 0px;
+}
+.schedule-nftimg img {
+	max-width: 700px;
+	margin: 32px 0px;
+}
+.font-color h1 {
+	color: #2c9370 !important;
+}
+@media (max-width:768px){
+.schedule .container {
+	padding: 0px 16px;
+}
+}
+

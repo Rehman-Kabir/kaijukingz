@@ -1,0 +1,74 @@
+.content {
+	padding: 50px 0px;
+}
+.content-main-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 24px;
+}
+.content-main-image img {
+	max-width: 539px;
+}
+.content-main-image p {
+	font-family: KaijuKingz;
+	color: #f5f5f5;
+	margin: 1rem;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+}
+.content-main-image p span {
+	color: red;
+	margin: 0px 4px;
+}
+.content-container {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	gap: 20%;
+}
+.content-data h1 {
+	margin-bottom: 24px;
+	font-family: KaijuKingz;
+	font-size: 2rem;
+	text-align: center;
+	color: #ed3823;
+	font-weight: 400;
+}
+.content-data p {
+	text-align: center;
+}
+.contentimg img {
+	max-width: 700px;
+	margin: 40px auto;
+}
+.community-wrap h1 {
+	margin-bottom: 20px;
+	font-family: KaijuKingz;
+	font-size: 1.7rem;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #ed3823;
+	font-weight: 400;
+}
+.community-wrap p {
+	text-align: center;
+	line-height: 1.5;
+}
+@media (max-width:768px){
+.mainimg-text{
+	text-align: center;
+}
+.content .container{
+	padding: 0px 16px;
+}
+}
+@media (max-width:550px){
+.content-container {
+	grid-template-columns: repeat(1, 1fr);
+	gap: 0;
+}
+.content-data{
+	margin-bottom: 16px;
+}
+}

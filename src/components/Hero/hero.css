@@ -1,0 +1,82 @@
+.hero {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding: 100px;
+	background: url(../../assets/Hero-bg.gif) no-repeat;
+	background-size: cover;
+	background-position: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	text-align: center;
+}
+
+.hero::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-image: linear-gradient(to bottom, #0000 50%, rgb(0, 0, 0) 100%);
+}
+.feature-content {
+	text-align: center;
+	margin-top: 50px;
+}
+.feature-content .btn {
+	margin-top: 16px;
+}
+.feature-content p {
+	max-width: 60%;
+	margin: 0 auto;
+	margin-top: 24px;
+	line-height: 1.6;
+}
+.feature-content img {
+	max-width: 780px;
+	margin: 0 auto;
+}
+.arrow {
+	position: relative;
+
+	height: 2rem;
+	width: 1.5rem;
+	animation: arrow 2.5s infinite;
+}
+
+@keyframes arrow {
+	0% {
+		opacity: 0;
+		top: 0rem;
+	}
+	10% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		top: 2rem;
+	}
+}
+
+@media (max-width:768px){
+	.hero{
+		padding: 50px 50px 0px 50px;
+	}
+	.feature-content p {
+    max-width: 100%;
+	}
+}
+
+@media (max-width:420px){
+	.hero{
+		padding: 24px 18px 0px 18px;
+	}
+	.feature-content {
+    margin-top: 24px;
+}
+}

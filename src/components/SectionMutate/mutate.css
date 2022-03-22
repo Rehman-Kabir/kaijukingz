@@ -1,0 +1,27 @@
+.mint-main {
+	max-width: 750px;
+	margin: 100px auto;
+	position: relative;
+}
+.mutate-btn {
+	position: absolute;
+	top: 38%;
+	right: 8%;
+}
+.mutate-btn img {
+	max-width: 350px;
+}
+.mutate-btn img:hover {
+	opacity: 0.9;
+}
+
+@media (max-width:768px){
+	.mint-main {
+    padding: 0px 16px;
+}
+}
+@media (max-width:540px){
+.mutate-btn img {
+    max-width: 190px;
+}
+}

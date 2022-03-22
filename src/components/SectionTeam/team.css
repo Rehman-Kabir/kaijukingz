@@ -1,0 +1,65 @@
+.team {
+	background: url(../../assets/RadioactiveWaste.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 4% 0px;
+}
+.team h1 {
+	font-family: KaijuKingz;
+	font-size: 4rem;
+	letter-spacing: 5px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 24px;
+}
+.team .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1000px;
+}
+.team-member-wrap {
+	flex-basis: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 340px;
+}
+.team-member-wrap img {
+	max-width: 200px;
+	border-radius: 50%;
+}
+.team-member-wrap p {
+	font-family: KaijuKingz;
+	font-size: 1.1rem;
+	text-align: center;
+	margin-top: 20px;
+	letter-spacing: 3px;
+}
+.team-title {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 16px;
+}
+.team-title img {
+	width: 30px;
+	border-radius: 0%;
+}
+.team-title h2 {
+	font-family: KaijuKingz;
+	color: #ed3823;
+	font-size: 1.8rem;
+}
+@media (max-width:600px){
+.team .container{
+	flex-direction: column;
+}
+.team h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+}
